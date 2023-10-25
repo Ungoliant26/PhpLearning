@@ -11,4 +11,7 @@
 <header>
     <a href="index.php">Main tab</a> |
     <a href="about.php">About Us</a> |
+    <a href="phpInfo.php">Documentations PHP</a> |
+    <a href="serverInfo.php">Server Version</a> |
+    <a href="mail.php">Sent Email</a> |
 </header>
