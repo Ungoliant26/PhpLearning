@@ -36,7 +36,7 @@
     $result = $mysql -> query("SELECT * FROM `usersExample`");
     printResult($result);
 
-    $result = $mysql -> query("SELECT `id`, `name` FROM `usersExample`");
+    $result = $mysql -> query(" SELECT `id`, `name` FROM `usersExample`");
     printResult($result);
 
     $result = $mysql -> query("SELECT * FROM `usersExample` WHERE `id` > 3 ORDER BY `id` DESC");
